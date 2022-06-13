@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\BackgroundMusic.cs" />
     <Compile Include="Class\BlackPices.cs">
       <SubType>Component</SubType>
     </Compile>
