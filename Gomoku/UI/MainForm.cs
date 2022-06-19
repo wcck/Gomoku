@@ -12,8 +12,8 @@ namespace Gomoku
 {
 	public partial class MainForm : Form
 	{
-		private bool isBlack = true;
-		private Board board = new Board();
+		//private bool isBlack = true;
+		private Game game = new Game();
 
 		public MainForm()
 		{
@@ -28,22 +28,28 @@ namespace Gomoku
 		// Exchange pices 
 		private void MainForm_MouseDown(object sender, MouseEventArgs e)
 		{
-			if (isBlack)
+
+			Piece piece = game.PlaceAPiece(e.X, e.Y);
+			if (piece != null)
 			{
-				this.Controls.Add(new BlackPices(e.X, e.Y));
-				isBlack = false;
-			}
-			else
-			{
-				this.Controls.Add(new WhitePices(e.X, e.Y));
-				isBlack = true;
-			}			
+				this.Controls.Add(piece);
+
+				// Check winner
+				if (game.Winner == PieceType.BLACK)
+				{
+					MessageBox.Show("Black is winner.");
+				}
+				else if (game.Winner == PieceType.WHITE)
+				{
+					MessageBox.Show("White is winner.");
+				}
+			}						
 		}
 
 		// Show hand behavior
 		private void MainForm_MouseMove(object sender, MouseEventArgs e)
 		{
-			if (board.CanBePlaced(e.X, e.Y))
+			if (game.CanBePlaced(e.X, e.Y))
 			{
 				this.Cursor = Cursors.Hand;
 			}
