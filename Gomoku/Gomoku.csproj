@@ -51,9 +51,11 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Class\Board.cs" />
-    <Compile Include="Class\Picecs.cs">
+    <Compile Include="Class\Game.cs" />
+    <Compile Include="Class\Piece.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Class\Typedef.cs" />
     <Compile Include="Class\WhitePices.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -10,7 +10,6 @@ D:\知識區\ImportantFiles\side project\gomoku\Gomoku\Gomoku\obj\Debug\Gomoku.M
 D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\bin\Debug\Gomoku.exe.config
 D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\bin\Debug\Gomoku.exe
 D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\bin\Debug\Gomoku.pdb
-D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\obj\Debug\Gomoku.csprojAssemblyReference.cache
 D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\obj\Debug\Gomoku.Properties.Resources.resources
 D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\obj\Debug\Gomoku.MainForm.resources
 D:\知識區\ImportantFiles\side project\gomoku\Gomoku_GUI\Gomoku\obj\Debug\Gomoku.csproj.GenerateResource.cache
